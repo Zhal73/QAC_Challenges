@@ -7,4 +7,4 @@ using the .append() function add me to the list<br />
 print the 5th person in the list (this is a trick question, what is special about the way Python indexes?)<br />
 print the number of Chris in the cohort <br />
 
-Once you have a solution, remember to push it to github.
+Once you have a solution, remember to push it to github. <br />
