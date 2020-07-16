@@ -1,5 +1,6 @@
 # QAC_Challenges
 -1-
+julydevops.py
 Write a python script with the above name which does the following:
 
 - initialises a list which contains the FIRST NAME of all 21 people in this cohort
