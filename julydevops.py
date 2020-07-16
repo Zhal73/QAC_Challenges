@@ -5,6 +5,6 @@ cohortFirstNames = ["Christopher","John","Jason","Arsalan","Domenico",
 
 cohortFirstNames.append("Luke")
 
-print(cohortFirstNames[4])
+print("The fifth name on the cohort is:",cohortFirstNames[4])
 
-print(cohortFirstNames.count("Christopher"))
+print("In this cohort there are :",cohortFirstNames.count("Christopher")," Christopher")
