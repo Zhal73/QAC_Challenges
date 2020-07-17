@@ -6,5 +6,5 @@ def timetable(n):
         line = line +"\n"
     return line
 
-number = int(input("Eneter the time table you want: "))
+number = int(input("Enter table width: "))
 print(timetable(number))
