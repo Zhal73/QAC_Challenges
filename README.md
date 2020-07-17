@@ -17,6 +17,7 @@ Once you have a solution, remember to push it to github.
 timestable.py
 
 Make a python script with the above name which solves the following challenge:
+
 Given an integer n, write a python function which returns a times table grid for all the integers between 1 and n.
 The grid should be separated by tabs and new lines.
 
