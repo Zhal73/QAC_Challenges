@@ -11,3 +11,28 @@ Write a python script with the above name which does the following:
 - print the number of Chris in the cohort
 
 Once you have a solution, remember to push it to github.
+
+-2-
+
+timestable.py
+
+Make a python script with the above name which solves the following challenge:
+Given an integer n, write a python function which returns a times table grid for all the integers between 1 and n.
+The grid should be separated by tabs and new lines.
+
+For example, given n = 4 it should return the grid
+
+1   2   3   4
+2   4   6   8
+3   6   9   12
+4   8   12  16
+
+given n=7 it should return
+
+1   2   3   4   5   6   7   
+2   4   6   8   10  12  14  
+3   6   9   12  15  18  21  
+4   8   12  16  20  24  28  
+5   10  15  20  25  30  35  
+6   12  18  24  30  36  42  
+7   14  21  28  35  42  49  
