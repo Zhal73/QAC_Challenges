@@ -16,7 +16,9 @@ Once you have a solution, remember to push it to github.
 
 timestable.py
 
-Make a python script with the above name which solves the following challenge:
+Make a python script with the above name which solves the following challenge: 
+
+https://portal.qa-community.co.uk/~/devops/challenges/times-table-grid
 
 Given an integer n, write a python function which returns a times table grid for all the integers between 1 and n.
 The grid should be separated by tabs and new lines.
@@ -37,3 +39,13 @@ given n=7 it should return
 5   10  15  20  25  30  35  
 6   12  18  24  30  36  42  
 7   14  21  28  35  42  49  
+
+-3-
+
+I have a function called `string_gen()` that will return a random 5-character-long string of lowercase letters. Write some tests for this function. 
+
+To reiterate, the output should always be:
+	
+- a string
+- 5 characters long
+- comprised of lowercase letters
