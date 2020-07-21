@@ -49,3 +49,16 @@ To reiterate, the output should always be:
 - a string
 - 5 characters long
 - comprised of lowercase letters
+
+
+-4-
+Define a class named Rectangle, which can be constructed by a length and width.
+
+ 
+
+The Rectangle class needs to have a method that can compute area.
+
+ 
+
+Finally, write a unit test to test this method.
+
