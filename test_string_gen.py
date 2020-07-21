@@ -11,4 +11,4 @@ def test_length():
 
 #check if the output is lower case
 def test_lower_case():
-    assert islower(string_gen.string_gen()) == True
+    assert string_gen.string_gen().islower() == True
