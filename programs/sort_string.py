@@ -29,9 +29,5 @@ def sort_string(input):
     for word in record:
         result=result + word +" "
     return(result.rstrip()) #rstrip() removes last space
-    
-
-print(sort_string("duplicates, duplicates"))
-
 
     
