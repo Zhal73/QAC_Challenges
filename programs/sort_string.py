@@ -14,15 +14,16 @@
 """
 
 def sort_string(input):
+    #change the input string into lowercase
     #split the input string into a list where each word is an element of the list
-    record=input.split()  
+    record=input.lower().split()  
 
     #transform the list into a set, so duplicates are removed
     set_string=set(record)
 
     #make a list again so it can be ordered, because Sets are unordered
     record=list(set_string)
-    record.sort(key=str.lower) #key.str.lower makes the order case insensitive without actually lowering the string
+    record.sort() 
 
     #creates the result string by concatenating each word
     result=""
