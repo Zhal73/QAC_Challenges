@@ -85,3 +85,16 @@ Suppose the following input is supplied to the program: 9 Then, the output shoul
 
 Write a test for this function
 
+-7-
+
+sevenNotFive.py
+
+Create a python function in the file above which satisfies the following challenge:
+
+https://portal.qa-community.co.uk/~/devops/challenges/seven-not-five
+
+Write a program to:
+
+find all numbers, between 2000 and 3200 (both included), that are divisible by 7, but are not a multiple of 5
+The numbers obtained should be returned on a single line. seperated by commas.
+
