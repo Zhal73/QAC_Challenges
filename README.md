@@ -98,3 +98,17 @@ Write a program to:
 find all numbers, between 2000 and 3200 (both included), that are divisible by 7, but are not a multiple of 5
 The numbers obtained should be returned on a single line. seperated by commas.
 
+-8-
+
+amsterdam.py
+
+Given a string, return the number of times "am" appears in the string BUT ONLY WHEN "am" is not followed or preceded by any other LETTERS.
+ 
+eg
+
+name("Am I in Amsterdam") → 1
+name("I am in Amsterdam am I?") → 2
+name("I have been in Amsterdam") → 0
+
+ 
+you should also attempt to write some tests for this function.
