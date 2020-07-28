@@ -6,6 +6,3 @@ def name(input):
         if word == "am":
             total = total + 1
     return total
-
-
-print(name("Hamburger are not healthy"))
