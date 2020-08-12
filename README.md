@@ -112,3 +112,17 @@ name("I have been in Amsterdam") → 0
 
  
 you should also attempt to write some tests for this function.
+
+
+-9-
+
+Today's CotD is to create a Dockerfile that will build an image to containerise the Stage 10 Flask Blog found here: https://gitlab.com/qacdevops/flask-stages/-/tree/master/stage-10
+
+
+- 10 -
+
+Write me up a .dockerignore file that will ignore:
+- Any files ending in ".md"
+- Any files in the directory called "src"
+- Any files beginning with "foo" EXCEPT if they also end with "bar"
+- Any files ending in ".txt" but only in directories that start with the letter "a"

@@ -1,0 +1,12 @@
+# Any files ending in ".md"
+*.md
+
+# Any files in the directory called "src"
+src
+
+# Any files beginning with "foo" EXCEPT if they also end with "bar"
+foo*
+!foo*bar
+
+# Any files ending in ".txt" but only in directories that start with the letter "a"
+a*/*.txt

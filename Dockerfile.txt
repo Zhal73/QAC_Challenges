@@ -1,0 +1,20 @@
+ARG PYTHON_VERSION=3.6.8
+  
+FROM python:${PYTHON_VERSION}
+
+WORKDIR /opt/flaskblog
+
+# WORKDIR /home/gaglianodomenico/flask-stages/stage-10/
+
+ENV MYSQL_USER root
+ENV MYSQL_PASS Giulia04
+ENV MYSQL_URL 34.89.125.158
+ENV MYSQL_DB flaskblog
+
+ENV SECRET_KEY=nicolacarrapipacicciopeppeconlacoppola
+
+COPY . /opt/flaskblog/
+
+RUN pip3 install --upgrade pip && pip3 install -r requirements.txt
+
+ENTRYPOINT ["/usr/local/bin/python", "app.py"]
